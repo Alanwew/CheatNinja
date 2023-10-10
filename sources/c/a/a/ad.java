@@ -1,0 +1,65 @@
+package c.a.a;
+
+import android.content.DialogInterface;
+/* loaded from: classes.dex */
+class ad implements DialogInterface.OnClickListener {
+    private static int[] aV = {27334041, 32620270, 47457756, 64504109};
+
+    /* renamed from: a  reason: collision with root package name */
+    private final aa f14a;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public ad(aa aaVar) {
+        this.f14a = aaVar;
+    }
+
+    private static String z(String str) {
+        int i;
+        int i2;
+        while (true) {
+            StringBuilder sb = new StringBuilder();
+            char[] charArray = str.toCharArray();
+            for (int i3 = 0; i3 < charArray.length; i3++) {
+                switch (i3 % 4) {
+                    case 0:
+                        sb.append((char) (charArray[i3] ^ 51015));
+                        int i4 = aV[1];
+                        if (i4 >= 0) {
+                            do {
+                                i2 = i4 % (33146174 ^ i4);
+                                i4 = 373198;
+                            } while (i2 != 373198);
+                        }
+                    case 1:
+                        sb.append((char) (charArray[i3] ^ 31486));
+                        int i5 = aV[2];
+                        if (i5 >= 0) {
+                            do {
+                            } while (i5 % (87235416 ^ i5) <= 0);
+                        }
+                    case 2:
+                        sb.append((char) (charArray[i3] ^ 26112));
+                        int i6 = aV[3];
+                        if (i6 >= 0) {
+                            do {
+                                i = i6 % (68088246 ^ i6);
+                                i6 = 64504109;
+                            } while (i != 64504109);
+                        }
+                    default:
+                        sb.append((char) (charArray[i3] ^ 65535));
+                        int i7 = aV[0];
+                        if (i7 >= 0 && (i7 & (75364149 ^ i7)) == 0) {
+                            break;
+                        }
+                        break;
+                }
+            }
+            return sb.toString();
+        }
+    }
+
+    @Override // android.content.DialogInterface.OnClickListener
+    public void onClick(DialogInterface dialogInterface, int i) {
+    }
+}

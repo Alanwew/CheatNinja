@@ -1,0 +1,68 @@
+package c.a.a;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.view.View;
+/* loaded from: classes.dex */
+class o implements View.OnClickListener {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final g f44a;
+    private static int[] bi = {62425448};
+    private static int[] bh = {72624068, 85902707, 63054134, 21779502};
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public o(g gVar) {
+        this.f44a = gVar;
+    }
+
+    private static String D(String str) {
+        while (true) {
+            StringBuilder sb = new StringBuilder();
+            char[] charArray = str.toCharArray();
+            for (int i = 0; i < charArray.length; i++) {
+                switch (i % 4) {
+                    case 0:
+                        sb.append((char) (charArray[i] ^ 31954));
+                        int i2 = bh[1];
+                        if (i2 >= 0 && (i2 & (89664449 ^ i2)) != 443442) {
+                        }
+                        break;
+                    case 1:
+                        sb.append((char) (charArray[i] ^ 21766));
+                        int i3 = bh[2];
+                        if (i3 >= 0) {
+                            do {
+                            } while ((i3 & (95564645 ^ i3)) <= 0);
+                        }
+                    case 2:
+                        sb.append((char) (charArray[i] ^ 45869));
+                        int i4 = bh[3];
+                        if (i4 >= 0 && (i4 & (39109439 ^ i4)) != 17306624) {
+                        }
+                        break;
+                    default:
+                        sb.append((char) (charArray[i] ^ 65535));
+                        int i5 = bh[0];
+                        if (i5 >= 0 && i5 % (89031704 ^ i5) == 0) {
+                            break;
+                        }
+                        break;
+                }
+            }
+            return sb.toString();
+        }
+    }
+
+    @Override // android.view.View.OnClickListener
+    public void onClick(View view) {
+        int i;
+        do {
+            this.f44a.startActivity(new Intent(D("粳啨덉ﾍ粽啯덉\uffd1粻啨덙ﾚ粼啲댃ﾞ粱啲덄ﾐ粼唨덻ﾶ粗啑").intern(), Uri.parse(b.m)));
+            i = bi[0];
+            if (i < 0) {
+                return;
+            }
+        } while (i % (48906079 ^ i) == 0);
+    }
+}

