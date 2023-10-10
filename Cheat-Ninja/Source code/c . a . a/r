@@ -1,0 +1,76 @@
+package c.a.a;
+
+import android.content.DialogInterface;
+
+/* loaded from: classes.dex */
+class r implements DialogInterface.OnClickListener {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final q f47a;
+
+    /* renamed from: b  reason: collision with root package name */
+    private final int f48b;
+    private static int[] N = {63324580, 14388903, 32966307, 78173650, 74084154, 24862491, 93100926};
+    private static int[] M = {49980211, 54211775, 92386214, 58735292};
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public r(q qVar, int i) {
+        this.f47a = qVar;
+        this.f48b = i;
+    }
+
+    private static String k(String str) {
+        while (true) {
+            StringBuilder sb = new StringBuilder();
+            char[] charArray = str.toCharArray();
+            for (int i = 0; i < charArray.length; i++) {
+                switch (i % 4) {
+                    case 0:
+                        sb.append((char) (charArray[i] ^ 34255));
+                        int i2 = M[1];
+                        if (i2 >= 0 && i2 % (92255639 ^ i2) != 54211775) {
+                        }
+                        break;
+                    case 1:
+                        sb.append((char) (charArray[i] ^ 43142));
+                        int i3 = M[2];
+                        if (i3 >= 0) {
+                            do {
+                            } while ((i3 & (44570758 ^ i3)) <= 0);
+                        }
+                    case 2:
+                        sb.append((char) (charArray[i] ^ 4032));
+                        int i4 = M[3];
+                        if (i4 >= 0 && (i4 & (72044261 ^ i4)) == 0) {
+                            break;
+                        }
+                        break;
+                    default:
+                        sb.append((char) (charArray[i] ^ 65535));
+                        int i5 = M[0];
+                        if (i5 >= 0 && (i5 & (66496808 ^ i5)) != 524819) {
+                        }
+                        break;
+                }
+            }
+            return sb.toString();
+        }
+    }
+
+    /*  JADX ERROR: JadxRuntimeException in pass: BlockProcessor
+        jadx.core.utils.exceptions.JadxRuntimeException: Found unreachable blocks
+        	at jadx.core.dex.visitors.blocks.DominatorTree.sortBlocks(DominatorTree.java:35)
+        	at jadx.core.dex.visitors.blocks.DominatorTree.compute(DominatorTree.java:25)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.computeDominators(BlockProcessor.java:202)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.processBlocksTree(BlockProcessor.java:45)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.visit(BlockProcessor.java:39)
+        */
+    @Override // android.content.DialogInterface.OnClickListener
+    public void onClick(android.content.DialogInterface r16, int r17) {
+        /*
+            Method dump skipped, instructions count: 374
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: c.a.a.r.onClick(android.content.DialogInterface, int):void");
+    }
+}

@@ -1,0 +1,101 @@
+package c.a.a;
+
+import android.view.View;
+
+/* loaded from: classes.dex */
+class i implements View.OnLongClickListener {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final g f36a;
+    private static int[] U = {84155045, 56040727, 84492005, 78752542, 30610453, 43087229, 99928212, 35549058, 91090780, 70795234, 84192470};
+    private static int[] T = {77774020, 64595274, 12436146, 65545983};
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public i(g gVar) {
+        this.f36a = gVar;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static g a(i iVar) {
+        return iVar.f36a;
+    }
+
+    private static String m(String str) {
+        int i;
+        int i2;
+        int i3;
+        int i4;
+        StringBuilder sb = new StringBuilder();
+        char[] charArray = str.toCharArray();
+        for (int i5 = 0; i5 < charArray.length; i5++) {
+            switch (i5 % 4) {
+                case 0:
+                    sb.append((char) (charArray[i5] ^ 3046));
+                    int i6 = T[1];
+                    if (i6 >= 0) {
+                        do {
+                            i3 = i6 % (61300983 ^ i6);
+                            i6 = 6438175;
+                        } while (i3 != 6438175);
+                        break;
+                    } else {
+                        break;
+                    }
+                case 1:
+                    sb.append((char) (charArray[i5] ^ 31979));
+                    int i7 = T[2];
+                    if (i7 >= 0) {
+                        do {
+                            i2 = i7 & (37739639 ^ i7);
+                            i7 = 8389248;
+                        } while (i2 != 8389248);
+                        break;
+                    } else {
+                        break;
+                    }
+                case 2:
+                    sb.append((char) (charArray[i5] ^ 25619));
+                    int i8 = T[3];
+                    if (i8 >= 0) {
+                        do {
+                            i = i8 & (40156033 ^ i8);
+                            i8 = 25691262;
+                        } while (i != 25691262);
+                        break;
+                    } else {
+                        break;
+                    }
+                default:
+                    sb.append((char) (charArray[i5] ^ 65535));
+                    int i9 = T[0];
+                    if (i9 >= 0) {
+                        do {
+                            i4 = i9 % (28142527 ^ i9);
+                            i9 = 77774020;
+                        } while (i4 != 77774020);
+                        break;
+                    } else {
+                        break;
+                    }
+            }
+        }
+        return sb.toString();
+    }
+
+    /*  JADX ERROR: JadxRuntimeException in pass: BlockProcessor
+        jadx.core.utils.exceptions.JadxRuntimeException: Found unreachable blocks
+        	at jadx.core.dex.visitors.blocks.DominatorTree.sortBlocks(DominatorTree.java:35)
+        	at jadx.core.dex.visitors.blocks.DominatorTree.compute(DominatorTree.java:25)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.computeDominators(BlockProcessor.java:202)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.processBlocksTree(BlockProcessor.java:45)
+        	at jadx.core.dex.visitors.blocks.BlockProcessor.visit(BlockProcessor.java:39)
+        */
+    @Override // android.view.View.OnLongClickListener
+    public boolean onLongClick(android.view.View r12) {
+        /*
+            Method dump skipped, instructions count: 408
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: c.a.a.i.onLongClick(android.view.View):boolean");
+    }
+}

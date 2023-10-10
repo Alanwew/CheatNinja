@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="header1" />
+    <item type="id" name="new_layout" />
+    <item type="id" name="goto_site_button" />
+    <item type="id" name="refresh_button" />
+    <item type="id" name="anouncement_layout" />
+    <item type="id" name="update_layout" />
+    <item type="id" name="update_title" />
+    <item type="id" name="update_summary" />
+    <item type="id" name="anouncement_layout2" />
+    <item type="id" name="anouncement_title" />
+    <item type="id" name="anouncement_summary" />
+    <item type="id" name="anouncement_more" />
+    <item type="id" name="instruction_layout" />
+    <item type="id" name="progressBar1" />
+    <item type="id" name="header2" />
+    <item type="id" name="retry_txt" />
+    <item type="id" name="listview1" />
+    <item type="id" name="listbg" />
+    <item type="id" name="listTitle" />
+    <item type="id" name="listIsInstalled" />
+    <item type="id" name="listStatus" />
+</resources>

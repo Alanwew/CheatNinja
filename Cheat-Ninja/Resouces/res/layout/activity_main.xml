@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff1e2a40" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#aaffffff" android:gravity="center_horizontal" android:id="@id/header1" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0sp" android:text="CheatNinja Loader v4.3" />
+    <LinearLayout android:orientation="vertical" android:id="@id/new_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#80c0c0c0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#d0ffffff" android:id="@id/goto_site_button" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Go to download.cheatninja.co" />
+        <View android:background="#80c0c0c0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#d0ffffff" android:id="@id/refresh_button" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Refresh version info" />
+        <View android:background="#80c0c0c0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/anouncement_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/update_layout" android:background="#ffff0000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#d0ffffff" android:id="@id/update_title" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Update" />
+                <TextView android:textSize="15.0sp" android:textColor="#d0ffffff" android:id="@id/update_summary" android:paddingLeft="8.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Update Available at download.cheatninja.com." />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/anouncement_layout2" android:background="#ff050a28" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#d0ffffff" android:id="@id/anouncement_title" android:paddingLeft="8.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Announcement" />
+                <TextView android:textSize="15.0sp" android:textColor="#d0ffffff" android:id="@id/anouncement_summary" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Welcome to Cheat Ninja, click here to visit our Telegram channel for more announcements." />
+                <TextView android:textSize="13.0sp" android:textStyle="italic" android:textColor="#77ffffff" android:id="@id/anouncement_more" android:paddingLeft="8.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tap to show more..." />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/instruction_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="4.0dip">
+            <ProgressBar android:id="@id/progressBar1" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" android:indeterminateTint="#ff69b7ab" style="?android:progressBarStyleLarge" />
+            <TextView android:textSize="13.0sp" android:textColor="#aaffffff" android:id="@id/header2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="main_instruction" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ccffffff" android:gravity="center" android:id="@id/retry_txt" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tap here to retry" />
+    </LinearLayout>
+    <ListView android:id="@id/listview1" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0sp" android:divider="@null" android:dividerHeight="4.0sp" android:choiceMode="none" />
+</LinearLayout>

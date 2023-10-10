@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="5480" android:versionName="3.70" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="ca.retha.drifting" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:theme="@style/FullScreen" android:label="Drifting" android:icon="@drawable/ic_launcher" android:name="a.a" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:usesCleartextTraffic="true">
+        <activity android:theme="@style/FullScreen" android:name="a.b" android:exported="true" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name="a.c" android:exported="false"/>
+        <activity android:theme="@style/FullScreen" android:name="a.d" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/FullScreen" android:name="a.e" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/FullScreen" android:name="a.f" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.g" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.h" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.i" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.j" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.k" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity android:theme="@style/Gm2Theme" android:name="a.l" android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+    </application>
+</manifest>

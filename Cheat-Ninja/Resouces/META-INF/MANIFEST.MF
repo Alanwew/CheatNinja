@@ -1,0 +1,127 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: LQmEuVOfe4+oYqTPL64K9xvbVfDuPtT/bbdxjZMY7Xw=
+
+Name: classes.dex
+SHA-256-Digest: hjc3ukVMmTHmnHa29iKkN7+wEHVLP2EIJ67iqZI9/Vo=
+
+Name: res/drawable/abc_acrobatical_precedaneous_tucking.png
+SHA-256-Digest: FnUe2b66j1bCScPmfvQ94vgzacc0mo2exD04jw6BVFo=
+
+Name: res/drawable/abc_bardie_zephyrus_zoccolo.png
+SHA-256-Digest: dqwHQbnfKsSzKBhBL1PMPMGj6epIgWyzMvW5M5Ojk7U=
+
+Name: res/drawable/abc_chob_incornished_chelatable.png
+SHA-256-Digest: JJz3oplGR1VnvzAlhfXU2wTc0Jn/WZhi9MXOL82cZk4=
+
+Name: res/drawable/abc_concluder.png
+SHA-256-Digest: 5IRtgcLjG/gKeXHJA3XWWDROtX/Fr4NvfMSPoncFJbQ=
+
+Name: res/drawable/abc_fionnuala_quizzers_yellower.png
+SHA-256-Digest: gXKHnm7y4m66iCmkg9QDqa3iAq93eGsazM+BXNWFqnY=
+
+Name: res/drawable/aphemic_zoogeographically.png
+SHA-256-Digest: mbiyFOQjIGY8OgQpnnbZx8mKQ9Sx2JjBDbX1+yWmAFE=
+
+Name: res/drawable/common_tradeoff.png
+SHA-256-Digest: dYP1QvlHXRHqi5TtyRotV9X4822TNJCNUi/KaNGejso=
+
+Name: res/drawable/common_unattackableness.png
+SHA-256-Digest: n0jMgn9hUsr5olmSQuUKmuVKKlFGcKtQ9zWWAT3P/ic=
+
+Name: res/drawable/ic_launcher.png
+SHA-256-Digest: GitwICGDdwKkVYCaO2WVFJbKZJz2tSRpbb7nIFKQZok=
+
+Name: res/drawable/notification_amphirhine.png
+SHA-256-Digest: kg+n4BSnibwuVcTn3D+jSQDJcwzVez/5wbCQhojSK4U=
+
+Name: res/drawable/notification_bacterioprecipitin_quinquagesima_odont
+ ophorous.png
+SHA-256-Digest: 75HDgDZAVWOGB4ZyT/LVYT/YBy96aZ4nG2QwQ0WAIhc=
+
+Name: res/drawable/notification_bridgetree_tc_bestrewment.png
+SHA-256-Digest: qXMeh4EzhwBvupi1wV75sTQNgwtv2whwnYmF04nS2ic=
+
+Name: res/drawable/notification_camponotus.png
+SHA-256-Digest: wK7w19r0He3E7Ahn8/p/XvopuhvNmUE1T8PRrSjC2z8=
+
+Name: res/drawable/notification_colostric.png
+SHA-256-Digest: BWe9zYCARXFPx0TDaXsbpsoZKDDAk0swmvGc46Qd3sY=
+
+Name: res/drawable/notification_connectivity_cordaitaceous.png
+SHA-256-Digest: sTp+/uMhaZg6TTpnNyPAQM4OwDPoA+BZfdpOL83i998=
+
+Name: res/drawable/notification_ferntickled_geophagy_nasaump.png
+SHA-256-Digest: rhijQUZvXIfgPZXFs6Akk2t8uNCaL1qVzFscBgF7c4E=
+
+Name: res/drawable/notification_hydration.png
+SHA-256-Digest: RIeplZWqUq34MMtlQpj4aar2fzlG7l1RCsSR7whY57k=
+
+Name: res/drawable/notification_ihi_jingling_noncommitted.png
+SHA-256-Digest: NmRowgm9gRFwfbGvHe+gDgh3pcZ4J0HFF0Ep8w+cjwo=
+
+Name: res/drawable/notification_inconsistently_brailing_identification
+ .png
+SHA-256-Digest: flN4k24jMl1QjaTx+YmZUCcMF9kFqoMN3Aa4JA9Ityk=
+
+Name: res/drawable/notification_misquoter_plantator.png
+SHA-256-Digest: fRbY2OfEWJ0s+QJUXw27xHL7/+lnvWh6WYfZ7tPibC0=
+
+Name: res/drawable/notification_necessary_stercophagous.png
+SHA-256-Digest: T6uN9hDKXYQs+DKnNfo9BDCfHy/U3ManlcjZYTFq9o8=
+
+Name: res/drawable/notification_vallancy.png
+SHA-256-Digest: sIpo/fB3vgjBrjCkPpcrZ+4D3gO7UT2ulRtI2IFfpLA=
+
+Name: res/drawable/notification_victimising_proposed_transitmen.png
+SHA-256-Digest: pa1Jv5zXWN9ykCenoeqHWINlR+14a1urzWbJR5r1brY=
+
+Name: res/drawable/notification_zeuctocoelomata_honer_strainedly.png
+SHA-256-Digest: FNlLM8P7/MEElZwmpVMxrt2+HWxn4VDrpWfsGuS7bJQ=
+
+Name: res/drawable/plumification_crania_marcosian.png
+SHA-256-Digest: /Sh02Q/aoNG65dLihn1q+Ubh/TbieOZbL0ji03QOPas=
+
+Name: res/drawable/podzolic_porterlike_ungnostic.png
+SHA-256-Digest: ox4BQhayRdQaaFO+fEO845JAlCTUCUESlNnohSlAV/4=
+
+Name: res/drawable/tabber_cahiz_trihemimeris.png
+SHA-256-Digest: 9Ua1bcG120c0fRC75WA6K0WmGO2OwwDxYfqlChghsRk=
+
+Name: res/drawable/tonality_cichloid_perispherical.png
+SHA-256-Digest: RW3tTDgGcAesO+Nu2p3kqToKTtAayfkl8iRleDpNG98=
+
+Name: res/drawable/underfinanced_reedman.png
+SHA-256-Digest: V3qLFUdO9khgvGBaOf7mauNvGaK1Zbzme4odOXpdljM=
+
+Name: res/drawable/undisguised_entrec_lauans.png
+SHA-256-Digest: xvl/XT27GPB/1S66+J1FIGX1Jg6zPzsXK3mDX+1OVSE=
+
+Name: res/drawable/undisguised_expatiative_plower.png
+SHA-256-Digest: dAkW0i0+b3DVqFmk5lai0QKtB42P9t65IYGy2VhPLzY=
+
+Name: res/drawable/undisguised_peduncled.png
+SHA-256-Digest: YSefCVCtwCKqZeM3wydJ5N/rBFqnNLuc+uZeG0VYLFU=
+
+Name: res/drawable/undisguised_pentacetate_honkey_litter.png
+SHA-256-Digest: yx4pHip2RlJIL8US//InhS8igCJDrduv4LFDy5mLcuw=
+
+Name: res/drawable/undisguised_reoutfit_hyperacute.png
+SHA-256-Digest: uqNNqe6dSvwMq5sDx05CnD1lFdc0Zfwy9RI6lNZEITM=
+
+Name: res/drawable/undisguised_sapajous.png
+SHA-256-Digest: GitwICGDdwKkVYCaO2WVFJbKZJz2tSRpbb7nIFKQZok=
+
+Name: res/drawable/undisguised_tilefish_clupeine.png
+SHA-256-Digest: NcGn3SMB8OqIMcBvp/UwhqSy+pnl9uDgPeFC/Bpbh3c=
+
+Name: res/layout/activity_main.xml
+SHA-256-Digest: AFJ6w4SL7nfGTeiSsuovTszboBIbkjvu7jv6AImmCaA=
+
+Name: res/layout/list.xml
+SHA-256-Digest: wkzO4zxUT24StTtEPTd9KZnR1MuzZ5J3G9YX2tjZ8mo=
+
+Name: resources.arsc
+SHA-256-Digest: lSHpXi6bEpgqQPS+/T+laJI8Tyz5ThW4aUIS5aB7GG0=
+
