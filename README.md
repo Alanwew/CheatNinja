@@ -21,3 +21,30 @@ SHA-256 Fingerprint: CA C4 93 D9 CE 55 C9 28 9C 34 74 E6 30 D6 CB E8 19 05 5E 4C
 Errors
 JAR signature META-INF/CERT.SF indicates the APK is signed using APK Signature Scheme v2 but no such signature was found. Signature stripped?
 JAR signature META-INF/CERT.SF indicates the APK is signed using APK Signature Scheme v3 but no such signature was found. Signature stripped?
+
+Input
+Files
+C:\Download\installer-65fda3e4.apk
+Code sources
+classes.dex
+Native libs
+Total count: 0
+Counts
+Classes: 56
+Methods: 217
+Fields: 351
+Instructions: 34830 (units)
+Decompilation
+Top level classes: 51
+Not loaded: 50 (98.04%)
+Loaded: 0 (0.00%)
+Processed: 1 (1.96%)
+Code generated: 0 (0.00%)
+Issues
+Errors: 0
+Warnings: 0
+Nodes with errors: 0
+Nodes with warnings: 0
+Total nodes with issues: 0
+Methods with issues: 0
+Methods success rate: 100.00%
